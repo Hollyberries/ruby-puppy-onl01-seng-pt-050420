@@ -19,11 +19,8 @@ end
  
 def self.print_all
       @@all.each do |dog_names|
-      if dog_names = @@all
-      @@all << dog_names
-      end
-      end
-    @@all
+      puts @all
+    end
 end
     
   def self.clear_all
