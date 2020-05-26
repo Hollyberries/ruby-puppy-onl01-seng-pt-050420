@@ -19,7 +19,7 @@ end
  
 def self.print_all
       @@all.each do |dog|
-      puts dog.index[0]
+      puts dog
     end
 end
     
